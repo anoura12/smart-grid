@@ -8,17 +8,17 @@ const DashboardView = () => {
     const userOptions = [
         {
             href: "/request-firmware",
-            icon: require('./images/web-dev.webp'),
+            // icon: require('./images/web-dev.webp'),
             title: "Request Firmware",
         },
         {
             href: "/my-requests",
-            icon: require('./images/requests.webp'),
+            // icon: require('./images/requests.webp'),
             title: "My Requests",
         },
         {
             href: "/change-password",
-            icon: require('./images/password.webp'),
+            // icon: require('./images/password.webp'),
             title: "Change Password",
         },
     ];

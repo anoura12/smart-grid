@@ -32,11 +32,11 @@ const RequestForm = () => {
 
     return submitted ? (
         <div className="bg-white text-center rounded-lg p-6 shadow">
-            <Image
+            {/* <Image
                 width={100}
                 height={100}
                 src={require('./images/checkmark.webp')}
-            />
+            /> */}
             <h2 className="text-center text-3xl font-semibold my-2">Request Sent</h2>
             <p className="opacity-80 mb-5">
                 Your request has been sent. Our team will quickly review your request and
