@@ -2,7 +2,7 @@ const sqlite3 = require('sqlite3').verbose();
 
 const getDB = () => {
     return new sqlite3.Database(
-       path.resolve('./src','data.db'),
+       './src/database/data.db',
         sqlite3.OPEN_READWRITE,
         (err) => {
             if (err) {
